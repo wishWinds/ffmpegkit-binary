@@ -14,14 +14,14 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "ffmpegkit", path: "ffmpeg-kit-full-gpl-5/ffmpegkit.xcframework.zip"),
-        .binaryTarget(name: "libavcodec", path: "ffmpeg-kit-full-gpl-5/libavcodec.xcframework.zip"),
-        .binaryTarget(name: "libavdevice", path: "ffmpeg-kit-full-gpl-5/libavdevice.xcframework.zip"),
-        .binaryTarget(name: "libavfilter", path: "ffmpeg-kit-full-gpl-5/libavfilter.xcframework.zip"),
-        .binaryTarget(name: "libavformat", path: "ffmpeg-kit-full-gpl-5/libavformat.xcframework.zip"),
-        .binaryTarget(name: "libavutil", path: "ffmpeg-kit-full-gpl-5/libavutil.xcframework.zip"),
-        .binaryTarget(name: "libswresample", path: "ffmpeg-kit-full-gpl-5/libswresample.xcframework.zip"),
-        .binaryTarget(name: "libswscale", path: "ffmpeg-kit-full-gpl-5/libswscale.xcframework.zip"),
+        .binaryTarget(name: "ffmpegkit", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/ffmpegkit.xcframework.zip"),
+        .binaryTarget(name: "libavcodec", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libavcodec.xcframework.zip"),
+        .binaryTarget(name: "libavdevice", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libavdevice.xcframework.zip"),
+        .binaryTarget(name: "libavfilter", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libavfilter.xcframework.zip"),
+        .binaryTarget(name: "libavformat", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libavformat.xcframework.zip"),
+        .binaryTarget(name: "libavutil", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libavutil.xcframework.zip"),
+        .binaryTarget(name: "libswresample", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libswresample.xcframework.zip"),
+        .binaryTarget(name: "libswscale", path: "https://github.com/wishWinds/ffmpegkit-binary/releases/download/0.0.1/libswscale.xcframework.zip"),
         .target(name: "Depend",
                 linkerSettings: [
                     .linkedLibrary("z"),
